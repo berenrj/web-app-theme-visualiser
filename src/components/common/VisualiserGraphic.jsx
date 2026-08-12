@@ -74,7 +74,7 @@ export default function VisualiserGraphic({theme}) {
               gap-x-3
               ">
                 <a className="rounded-sm 
-                px-3
+                px-1 md:px-3
                 "
                 style={{ 
                   backgroundColor: quaternaryBg,
@@ -84,7 +84,7 @@ export default function VisualiserGraphic({theme}) {
                   LINK
                 </a>
                 <a className="rounded-sm 
-                px-3
+                px-1 md:px-3
                 "
                 style={{ 
                   backgroundColor: quaternaryBg,
@@ -94,7 +94,7 @@ export default function VisualiserGraphic({theme}) {
                   LINK
                 </a>
                 <a className="rounded-sm 
-                px-3
+                px-1 md:px-3
                 "
                 style={{ 
                   backgroundColor: quaternaryBg,
@@ -104,7 +104,7 @@ export default function VisualiserGraphic({theme}) {
                   LINK
                 </a>
                 <a className="rounded-sm 
-                px-3
+                px-1 md:px-3
                 "
                 style={{ 
                   backgroundColor: quaternaryBg,
@@ -128,11 +128,11 @@ export default function VisualiserGraphic({theme}) {
               w-full
               flex flex-col
               lg:gap-y-1
-              p-1
+              py-0 px-1 md:p-1
               "
               style={{ backgroundColor: tertiaryBg }}
               >
-                <h5 className="pb-1"
+                <h5 className="pb-0 md:pb-1"
                 style={{ color: headingTextCol }}
                 >
                   Heading
@@ -152,11 +152,11 @@ export default function VisualiserGraphic({theme}) {
                 flex flex-row
                 items-center
                 justify-end
-                p-0 pt-1
+                p-0 md:pt-1
                 gap-x-1
                 ">
                   <a className="rounded-sm 
-                  px-3
+                  px-1 md:px-3
                   "
                   style={{ 
                     backgroundColor: quaternaryBg,
@@ -166,7 +166,7 @@ export default function VisualiserGraphic({theme}) {
                     Link
                   </a>
                   <a className="rounded-sm 
-                  px-3
+                  px-1 md:px-3
                   "
                   style={{ 
                     backgroundColor: quaternaryBg,
@@ -182,11 +182,11 @@ export default function VisualiserGraphic({theme}) {
               w-full
               flex flex-col
               lg:gap-y-1
-              p-1
+              py-0 px-1 md:p-1
               "
               style={{ backgroundColor: tertiaryBg }}
               >
-                <h5 className="pb-1"
+                <h5 className="pb-0 md:pb-1"
                 style={{ color: headingTextCol }}
                 >
                   Heading
@@ -206,11 +206,11 @@ export default function VisualiserGraphic({theme}) {
                 flex flex-row
                 items-center
                 justify-end
-                p-0 pt-1
+                p-0 md:pt-1
                 gap-x-1
                 ">
                   <a className="rounded-sm 
-                  px-3
+                  px-1 md:px-3
                   "
                   style={{ 
                     backgroundColor: quaternaryBg,
@@ -220,7 +220,7 @@ export default function VisualiserGraphic({theme}) {
                     Link
                   </a>
                   <a className="rounded-sm 
-                  px-3
+                  px-1 md:px-3
                   "
                   style={{ 
                     backgroundColor: quaternaryBg,

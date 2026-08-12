@@ -32,7 +32,7 @@ export default function ControlsContainer({theme, onChange}) {
     overflow-y-auto
     flex flex-col
     gap-y-0 md:gap-y-1 lg:gap-y-3
-    px-3 py-1 lg:py-3
+    px-3 py-0 md:py-1 lg:py-3
     font-content
     select-none
     bg-stone-300

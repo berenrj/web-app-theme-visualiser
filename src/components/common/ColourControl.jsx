@@ -54,7 +54,7 @@ export default function ColourControl({inputName, theme, themeGroup, themeKey, o
         h-full
         p-1
         leading-6
-        text-sm md:text-base
+        text-xs sm:text-sm md:text-base
         border-r border-gray-500 rounded-r-sm
         ">
             {inputName}
