@@ -10,14 +10,15 @@ export default function Visualiser({theme}) {
     h-1/2 lg:h-auto
     min-h-[360px]
     flex flex-col
-    gap-y-1 lg:gap-y-3
-    px-3 py-0 md:py-1 lg:py-3
+    justify-center
+    gap-y-1 lg:gap-y-5
+    px-3 pb-1 py-0 md:py-1 lg:py-3
     bg-white
     cursor-default
     select-none
     ">
 
-      <h1>
+      <h1 className="text-lg sm:text-xl">
         Preview
       </h1>
       

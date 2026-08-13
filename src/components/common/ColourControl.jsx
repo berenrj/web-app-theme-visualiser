@@ -44,7 +44,7 @@ export default function ColourControl({inputName, theme, themeGroup, themeKey, o
     content-center
     items-center
     justify-items-stretch
-    min-h-7 max-h-9
+    min-h-6 max-h-9
     gap-x-1
     bg-gray-300
     ">
@@ -64,8 +64,8 @@ export default function ColourControl({inputName, theme, themeGroup, themeKey, o
         cursor-pointer 
         col-span-2
         min-h-7 max-h-9
-        pl-1
-        text-sm md:text-base
+        text-xs sm:text-sm md:text-base
+        tracking-tighter sm:tracking-normal
         " 
         name="colour-select" 
         id={inputId}
@@ -105,18 +105,26 @@ export default function ColourControl({inputName, theme, themeGroup, themeKey, o
         box-border shadow-[inset_0_0_0_1px_gray] rounded-md
         col-span-2
         min-h-7
-        mr-[2px]
-        text-xs text-center
+        mr-[1px]
+        text-[10px] sm:text-xs 
+        text-center
         content-center
+        justify-center
+        items-center
         "
         style={{ 
             backgroundColor: hexColour,
             color: isLightBackground(hexColour) ? "#000000" : "#ffffff"
         }}
         >
-            <div className="flex flex-col leading-[0.95] font-extralight">
-                <span>{hexColour}</span>
-                <span>{currentColourValue}</span>
+            <div className="
+            flex flex-col flex-wrap
+            font-extralight 
+            content-center
+            items-center
+            ">
+                <span className="mb-[-1px]">{hexColour}</span>
+                <span className=" mt-[-1px] text-[9px] tracking-tight sm:text-xs sm:tracking-normal">{currentColourValue}</span>
             </div>
             
         </div>

@@ -38,16 +38,20 @@ export default function ControlsContainer({theme, onChange}) {
     bg-stone-300
     ">
 
-      <h1>
+      <h1 className="text-lg sm:text-xl">
         Theme Controls
       </h1>
       <div className="
       flex flex-col
-      pt-1 lg:pt-3
+      pt-0 md:pt-1 lg:pt-5
       gap-1 md:gap-2 lg:gap-5
       ">
 
-        <h5>Background Colours</h5>
+        <h5 className="
+        text-xs sm:text-base
+        ">
+          Background Colours
+        </h5>
         <ColourControl 
         inputName="Primary Background" 
         theme={theme} 
@@ -73,7 +77,11 @@ export default function ControlsContainer({theme, onChange}) {
         onChange={onChange} 
         />
 
-        <h5>Text Colours</h5>
+        <h5 className="
+        text-xs sm:text-base
+        ">
+          Text Colours
+        </h5>
         <ColourControl 
         inputName="Heading Colour" 
         theme={theme} 
@@ -100,7 +108,7 @@ export default function ControlsContainer({theme, onChange}) {
         w-28
         md:mx-auto
         flex flex-row flex-0
-        mt-3 lg:mt-3
+        mt-1 sm:mt-3 lg:mt-3
         gap-x-1
         h-7
         ">
@@ -121,7 +129,6 @@ export default function ControlsContainer({theme, onChange}) {
           h-full
           left-full
           ml-1
-          
           ${copied ? 'animate-[checkbox-pop_0.2s_ease-out]' : 'hidden'}
           `} 
           src={checkBox} 
