@@ -53,25 +53,25 @@ export default function ControlsContainer({theme, onChange}) {
           Background Colours
         </h5>
         <ColourControl 
-        inputName="Primary Background" 
+        inputName="Primary (Main)" 
         theme={theme} 
         themeGroup="bg" themeKey="primary" 
         onChange={onChange} 
         />
         <ColourControl 
-        inputName="Secondary Background" 
+        inputName="Secondary (Banner)" 
         theme={theme} 
         themeGroup="bg" themeKey="secondary" 
         onChange={onChange} 
         />
         <ColourControl 
-        inputName="Tertiary Background" 
+        inputName="Tertiary (Articles)" 
         theme={theme} 
         themeGroup="bg" themeKey="tertiary" 
         onChange={onChange} 
         />
         <ColourControl 
-        inputName="Quaternary Background" 
+        inputName="Quaternary (Links/Aside)" 
         theme={theme} 
         themeGroup="bg" themeKey="quaternary" 
         onChange={onChange} 
